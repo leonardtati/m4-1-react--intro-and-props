@@ -178,6 +178,11 @@ let age = 10;
   <img src={birthdayCakeImage} />
   <p>Happy {age}th birthday!</p>
 </div>;
+
+<div class="wrapper">
+<img src='/images/cake.jpg'>
+<p>Happy 10th birthday!</p>
+</div>
 ```
 
 ---
@@ -196,6 +201,13 @@ let agreeToTerms = false;
     <div>YOUR SOUL BELONGS TO ME MWAHAHAHAHAAAAAAHHHHHH!!!1</div>
   )}
 </div>;
+
+<div>
+<label for="terms-of-service">
+  <input type="checkbox" id="terms-of-service"/> I agree to the terms 
+  </label>
+  </div>
+
 ```
 
 ---
@@ -263,6 +275,49 @@ const pets = [
   </ul>
 </div>;
 ```
+<div>
+  <h1 class="title">My pets:</h1>
+  <ul>
+    <li>
+      <h3>Bark obama</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Age</th>
+            <th>Species</th>
+            <th>Breed</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>3</td>
+            <td>dog</td>
+            <td>Labradoodle</td>
+          </tr>
+        </tbody>
+      </table>
+    </li>
+    <li>
+      <h3>Chairman Meow </h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Age</th>
+            <th>Species</th>
+            <th>Breed</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>8</td>
+            <td>cat</td>
+            <td>ragdoll</td>
+          </tr>
+        </tbody>
+      </table>
+    </li>
+  </ul>
+</div>
 
 ---
 

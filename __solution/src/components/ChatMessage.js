@@ -1,11 +1,11 @@
-import React from 'react';
+import React from "react";
 
-import Avatar from './Avatar';
+import Avatar from "./Avatar";
 
-import './ChatMessage.css';
+import "./ChatMessage.css";
 
-const bubbleTipSentSrc = '/assets/tip-sent.svg';
-const bubbleTipReceivedSrc = '/assets/tip-received.svg';
+const bubbleTipSentSrc = "/assets/tip-sent.svg";
+const bubbleTipReceivedSrc = "/assets/tip-received.svg";
 
 function SentMessage(props) {
   return (
@@ -44,7 +44,7 @@ function ReceivedMessage(props) {
 }
 
 function ChatMessage(props) {
-  if (props.messageType === 'sent') {
+  if (props.messageType === "sent") {
     return <SentMessage message={props.message} />;
   } else {
     return <ReceivedMessage message={props.message} />;
